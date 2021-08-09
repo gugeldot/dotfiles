@@ -1,15 +1,9 @@
 # Config change summaries
-| Folder                  | Changes                     |
-| -------------------- | -------------------------- |
-| **mod + return**     | launch xterm               |
-| **mod + k**          | next window                |
-| **mod + j**          | previous window            |
-| **mod + w**          | kill window                |
-| **mod + [asdfuiop]** | go to workspace [asdfuiop] |
-| **mod + ctrl + r**   | restart qtile              |
-| **mod + ctrl + q**   | logout                     |
-
 
 | Folder					| Changes					|
 | --------------------------|-------------------------- |
 |**[Alacritty](https://github.com/gugeldot/dotfiles/tree/main/.config/alacritty)**| Fonts &  color scheme |
+|**[i3](https://github.com/gugeldot/dotfiles/tree/main/.config/i3)**| Fonts &  color scheme |
+|**[i3blocks](https://github.com/gugeldot/dotfiles/tree/main/.config/i3blocks)**| Fonts &  color scheme |
+|**[Neofetch](https://github.com/gugeldot/dotfiles/tree/main/.config/neofetch)**| Parameters of output |
+|**[Picom](https://github.com/gugeldot/dotfiles/tree/main/.config/picom)**| Opacity and animation parameteres|
