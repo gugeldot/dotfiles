@@ -20,7 +20,8 @@ Dependencies:
 ```bash
 pacman -S blueberry
 ```
-Purpose: Blueberry laucher.
+Purpose: Blueberry laucher
+
 Option B: [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth)
 
 # **bright.sh**
