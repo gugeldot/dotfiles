@@ -1,0 +1,12 @@
+#!/bin/bash 
+#Needed acpi 
+percentage=$(acpi | cut -d',' -f2)
+mode=$(acpi | cut -c12)
+
+if [ $mode = "D"  ]; then 
+echo " $percentage"
+
+else
+echo " $percentage"
+
+fi

@@ -1,0 +1,53 @@
+# i3blocks configuration file
+#
+# The i3blocks man page describes the usage of the binary,
+# and its website describes the configuration:
+#
+#     https://vivien.github.io/i3blocks
+
+
+# Global properties
+separator=true
+separator_block_width=15
+
+align=center
+border_top=0
+border_bottom=3
+border_left=0
+border_right=0
+color=#eeeeee
+
+[spotify]
+command=/home/$USER/.config/i3blocks/spotify.sh
+interval=3
+markup=pango
+color=#1ED760
+
+[volume]
+command=/home/gerry/.config/i3blocks/volume.sh
+#LABEL=♪ 
+LABEL=VOL 
+interval=once
+signal=10
+color=#ffa252
+border=#ff7752
+#STEP=5%
+#MIXER=[determined automatically]
+#SCONTROL=[determined automatically]
+#NATURAL_MAPPING=0
+
+[connection]
+command=nmcli device wifi list | grep '*' | awk '{print $3}'
+interval=once
+
+
+[battery]
+command=/home/$USER/.config/i3blocks/batery
+interval=5
+
+[power]
+[bluetooth]
+[time]
+command=date +'%d/%m/%Y %H:%M'
+interval=1
+

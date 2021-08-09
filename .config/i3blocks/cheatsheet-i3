@@ -1,0 +1,9 @@
+#!/bin/bash 
+file="/home/nomade/.config/i3/config"
+
+for i in $(cat -n ~/.config/i3/config | grep '#~' | cut -f1)
+do
+line=$(( 1+ $i ))
+head -$i $file | tail +$i 		#Header
+head -$line $file | tail +$line		#Command
+done 
