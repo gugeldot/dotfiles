@@ -1,5 +1,5 @@
 # Config change summaries
-| Folder                  | Action                     |
+| Folder                  | Changes                     |
 | -------------------- | -------------------------- |
 | **mod + return**     | launch xterm               |
 | **mod + k**          | next window                |
@@ -11,5 +11,5 @@
 
 
 | Folder					| Changes					|
-| ----------------------------------------------------- |
+| --------------------------|-------------------------- |
 |**[Alacritty](https://github.com/gugeldot/dotfiles/tree/main/.config/alacritty)**| Fonts &  color scheme |
