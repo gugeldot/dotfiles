@@ -1,0 +1,16 @@
+#!/bin/bash 
+
+path="/usr/share/backgrounds"
+file_ext=".png"
+main="13.png"
+limit=$(ls $path | grep --regex '^[1-9]' | wc -l)
+
+ran=$((1 + $RANDOM % $limit))
+
+if [ -z $1 ]
+then 
+feh --bg-fill $path/$ran$file_ext
+else 
+feh --bg-fill $path/$main 
+fi
+
