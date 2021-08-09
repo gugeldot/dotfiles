@@ -1,4 +1,4 @@
-# ***i3blocks scripts**
+# ***i3blocks scripts***
 - **Quick Links** 
     - [batery](#batery)
     - [blue.sh](#blue.sh)
