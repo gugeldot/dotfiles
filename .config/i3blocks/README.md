@@ -27,7 +27,7 @@ Option B: [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth)
 # **bright.sh**
 Dependencies: [blighty](https://github.com/nickclyde/rofi-bluetooth) 
 
-Purpose: Information of brightness by blighty & controlled by i3/config with fn keys
+Purpose: Information of brightness by blighty
 
 # **cheatsheet-i3**
 Purpose: Takes all lines with #~ previously selected from the i3/config as a cheatsheet 
@@ -50,7 +50,7 @@ Dependencies:
 ```bash 
 yay -S spotify 
 ```
-Purpose: An (interface)[https://gist.github.com/fa6258f3ff7b17747ee3.git] using spotify to display information
+Purpose: An [interface](https://gist.github.com/fa6258f3ff7b17747ee3.git) using spotify to display information
 
 # **spotify.sh**
 Purpose: Uses sp to display info on the taskbar
