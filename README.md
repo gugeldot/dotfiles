@@ -8,3 +8,6 @@
 	- [Configuration](https://github.com/gugeldot/dotfiles/tree/main/.config)
 	- [Wallpeapers](https://github.com/gugeldot/dotfiles/tree/main/backgrounds)
 
+
+###### Based on [DistroTube](https://gitlab.com/dwt1) & [GerrySoft](https://github.com/gerardet46/linux-config)
+
