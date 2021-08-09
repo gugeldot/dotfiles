@@ -1,3 +1,4 @@
 # DOTFILES: i3 , alacritty, vim...  
-Linux config files, mostly of the i3wm , terminal, vim config ...etc
+## Linux config files, mostly of the i3wm , terminal, vim config ...etc
+
 ![Plain](.screenshots/sst.png)
