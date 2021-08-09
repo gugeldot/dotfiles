@@ -1,7 +1,7 @@
 # ***i3blocks scripts***
 - **Quick Links** 
     - [batery](#batery)
-    - [blue.sh](#blue.sh)
+    - [blue.sh](#blue)
     - [bright.sh](#bright.sh)
     - [cheatsheet-i3](#cheatsheet-i3)
     - [powermenu.sh](#powermenu.sh)
@@ -19,7 +19,7 @@ pacman -S acpi ttf-font-awesome
 ```
 Purpose: Mode and percentage of battery
 
-# **blue.sh**
+# **blue**
 Dependencies:
 ```bash
 pacman -S blueberry
@@ -54,7 +54,7 @@ Dependencies:
 ```bash 
 yay -S spotify 
 ```
-Purpose: An [interface](https://gist.github.com/fa6258f3ff7b17747ee3.git)using spotify to display information
+Purpose: An [interface](https://gist.github.com/fa6258f3ff7b17747ee3.git) using spotify to display information
 
 # **spotify.sh**
 Purpose: Uses sp to display info on the taskbar
