@@ -20,12 +20,14 @@ Lines referenced from the config file
 61 |#~ rofi wifi menu
 62 |bindsym $mod+n exec --no-startup-id $HOME/.config/i3blocks/nmcli-rofi/nmcli-rofi
 ```
+![RWM](/.screenshots/rofiwifimenu.jpg)
 ##### Rofi search menu 
 Rofi menu instead of dmenu
 ```bash
 67 |#~ start rofi
 68 |bindsym $mod+d exec --no-startup-id rofi -show run 
 ```
+![RSM](/.screenshots/rofisearchmenu.jpg)
 # Terminals
 ##### Alacritty 
 ```bash
