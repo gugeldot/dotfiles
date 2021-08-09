@@ -45,3 +45,22 @@ Purpose:Rofi Power Menu based in python's lib [rofi-menu](https://pypi.org/proje
 # **nmcli-rofi**
 Purpose: [Rofi Based Wifi Menu](https://github.com/sineto/nmcli-rofi)
 
+# **sp**
+Dependencies:
+```bash 
+yay -S spotify 
+```
+Purpose: An (interface)[https://gist.github.com/fa6258f3ff7b17747ee3.git] using spotify to display information
+
+# **spotify.sh**
+Purpose: Uses sp to display info on the taskbar
+
+# **vol.sh**
+Dependencies: 
+```bash 
+pacman -S alsa-utils
+```
+Purpose: Displays master volume level
+
+# **wifi.sh**
+Purpose: Nmcli-rofi launcher

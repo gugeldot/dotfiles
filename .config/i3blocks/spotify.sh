@@ -7,7 +7,6 @@ case $BLOCK_BUTTON in
 esac
 
 
-# ses dades són a partir de sa 2na columna
 titol=$(sp current | awk 'FNR==4 {first = $1; $1 = ""; print $0}' | sed 's/&/i/g')
 artista=$(sp current | awk 'FNR==3 {first = $1; $1 = ""; print $0}' | sed 's/&/i/g')
 
