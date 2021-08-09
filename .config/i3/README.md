@@ -8,6 +8,11 @@
 
 # Rofi
 ##### Rofi "PowerMenu"
+````bash
+#~ Power-menu
+bindsym $mod+p exec --no-startup-id rofi -modi mymenu:$HOME/.config/i3blocks/rofi-pwmenu.py -show mymenu -show-icon 
+```
+
 ##### Rofi WifiMenu
 ##### Rofi search menu 
 Rofi menu instead of dmenu
