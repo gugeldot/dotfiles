@@ -1,3 +1,3 @@
 # Preview
 
-![Plain](.backgrounds/0.png)
+![Plain][[0.jpg]]
