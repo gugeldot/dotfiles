@@ -1,10 +1,10 @@
 # i3 config changes from default:
 - **Quick Links** 
-    - [Rofi](###Rofi)
-    - [Terminals](###Terminals)
-    - [Icons in workspaces](###Workspaces)
-    - [Background Processes](###Bgprocesses)
-    - [Extras](###Extras)
+    - [Rofi](###rofi)
+    - [Terminals](###terminals)
+    - [Icons in workspaces](###workspaces)
+    - [Background Processes](###bgprocesses)
+    - [Extras](###extras)
 
 ### Rofi
 ##### Rofi "PowerMenu"
