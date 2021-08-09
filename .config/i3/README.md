@@ -9,13 +9,13 @@
 Lines referenced from the config file
 
 # Rofi
-##### Rofi "PowerMenu"
+##### [Rofi "PowerMenu"](https://github.com/gugeldot/dotfiles/tree/main/.config/i3blocks#rofi-pwmenu)
 ````bash
 52 |#~ Power-menu
 53 |bindsym $mod+p exec --no-startup-id rofi -modi mymenu:$HOME/.config/i3blocks/rofi-pwmenu.py -show mymenu -show-icon 
 ````
 ![RPM](/.screenshots/rofipowermenu.jpg)
-##### Rofi WifiMenu
+##### [Rofi WifiMenu](https://github.com/sineto/nmcli-rofi)
 ```bash
 61 |#~ rofi wifi menu
 62 |bindsym $mod+n exec --no-startup-id $HOME/.config/i3blocks/nmcli-rofi/nmcli-rofi
