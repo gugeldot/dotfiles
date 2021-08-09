@@ -1,13 +1,15 @@
-# DOTFILES: i3, alacritty, vim...  
-**Linux config files, mostly of the i3wm , terminal, vim config ...etc**
+# Config change summaries
+| Folder                  | Action                     |
+| -------------------- | -------------------------- |
+| **mod + return**     | launch xterm               |
+| **mod + k**          | next window                |
+| **mod + j**          | previous window            |
+| **mod + w**          | kill window                |
+| **mod + [asdfuiop]** | go to workspace [asdfuiop] |
+| **mod + ctrl + r**   | restart qtile              |
+| **mod + ctrl + q**   | logout                     |
 
-![Plain](.screenshots/sst.png)
-###### White border just for aesthetic purposes
 
-- **Index**
-	- [Configuration](https://github.com/gugeldot/dotfiles/tree/main/.config)
-	- [Wallpeapers](https://github.com/gugeldot/dotfiles/tree/main/backgrounds)
-
-
-###### Based on [DistroTube](https://gitlab.com/dwt1) & [GerrySoft](https://github.com/gerardet46/linux-config)
-
+| Folder					| Changes					|
+| ----------------------------------------------------- |
+|**[Alacritty](https://github.com/gugeldot/dotfiles/tree/main/.config/alacritty)**| Fonts &  color scheme |
