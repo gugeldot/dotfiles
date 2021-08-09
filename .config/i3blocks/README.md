@@ -2,15 +2,15 @@
 - **Quick Links** 
     - [batery](#batery)
     - [blue.sh](#blue)
-    - [bright.sh](#bright.sh)
+    - [bright.sh](#bright)
     - [cheatsheet-i3](#cheatsheet-i3)
-    - [powermenu.sh](#powermenu.sh)
-    - [rofi-pwmenu.py](#rofi-pwmenu.py)
+    - [powermenu.sh](#powermenu)
+    - [rofi-pwmenu.py](#rofi-pwmenu)
     - [nmcli-rofi](#nmcli-rofi)
     - [sp](#sp)
-    - [spotify.sh](#spotify.sh)
-    - [vol.sh](#vol.sh)
-    - [wifi.sh](#wifi.sh)
+    - [spotify.sh](#spotify)
+    - [vol.sh](#vol)
+    - [wifi.sh](#wifi)
 
 # **Batery:**
 Dependencies:
@@ -28,7 +28,7 @@ Purpose: Blueberry laucher
 
 Option B: [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth)
 
-# **bright.sh**
+# **bright**
 Dependencies: [blighty](https://github.com/nickclyde/rofi-bluetooth) 
 
 Purpose: Information of brightness by blighty
@@ -36,10 +36,10 @@ Purpose: Information of brightness by blighty
 # **cheatsheet-i3**
 Purpose: Takes all lines with #~ previously selected from the i3/config as a cheatsheet 
 
-# **powermenu.sh**
+# **powermenu**
 Purpose: Launcher of rofi-pwmenu.py
 
-# **rofi-pwmenu.py**
+# **rofi-pwmenu**
 Dependencies:
 ```bash
 pip install rofi-menu
@@ -56,15 +56,15 @@ yay -S spotify
 ```
 Purpose: An [interface](https://gist.github.com/fa6258f3ff7b17747ee3.git) using spotify to display information
 
-# **spotify.sh**
+# **spotify**
 Purpose: Uses sp to display info on the taskbar
 
-# **vol.sh**
+# **vol**
 Dependencies: 
 ```bash 
 pacman -S alsa-utils
 ```
 Purpose: Displays master volume level
 
-# **wifi.sh**
+# **wifi**
 Purpose: Nmcli-rofi launcher
