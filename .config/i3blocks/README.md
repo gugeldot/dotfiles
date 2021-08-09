@@ -68,3 +68,6 @@ Purpose: Displays master volume level
 
 # **wifi**
 Purpose: Nmcli-rofi launcher
+
+
+###### At this point, thanks for spending some time reading this :)
