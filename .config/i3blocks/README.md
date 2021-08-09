@@ -20,12 +20,11 @@ Dependencies:
 ```bash
 pacman -S blueberry
 ```
-Purpose:
-Blueberry laucher.
+Purpose: Blueberry laucher.
 Option B: [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth)
 
 # **bright.sh**
-Dependencies: [blighty](https://github.com/nickclyde/rofi-bluetooth)
+Dependencies: [blighty](https://github.com/nickclyde/rofi-bluetooth) 
 Purpose: Information of brightness by blighty & controlled by i3/config with fn keys
 
 # **cheatsheet-i3**
