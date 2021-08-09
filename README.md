@@ -3,3 +3,8 @@
 
 ![Plain](.screenshots/sst.png)
 ###### White border just for aesthetic purposes
+
+- **Index**
+	-[Configuration](https://github.com/gugeldot/dotfiles/tree/main/.config)
+	-[Wallpeapers](https://github.com/gugeldot/dotfiles/tree/main/backgrounds)
+
