@@ -6,6 +6,8 @@
     - [Background Processes](#bgprocesses)
     - [Extras](#extras)
 
+Lines referenced from the config file
+
 # Rofi
 ##### Rofi "PowerMenu"
 ````bash
