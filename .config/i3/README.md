@@ -1,4 +1,4 @@
-# i3 config changes from default:
+# ***i3 config changes from default:***
 - **Quick Links** 
     - [Rofi](#rofi)
     - [Terminals](#terminals)
@@ -31,23 +31,80 @@ Rofi menu instead of dmenu
 56 |bindsym $mod+Return exec --no-startup-id alacritty
 ```
 ##### Xfce4-terminal 
-Terminal and "mini 
 ```bash
 58 |#~ start mini-terminal 
 59 |bindsym $mod+Shift+Return exec --no-startup-id xfce4-terminal
 ```
-&
+& (For making it floating mode only)
 ```bash
 219 |for_window [class="Xfce4-terminal"] floating enable
 ```
 
 # Workspaces
-Icons from https://fontawesome.com/v4.7/cheatsheet:
-Dependecie needed ttf-font-awesome 
+
+Dependencies needed: 
+```bash
+pacman -S ttf-font-awesome 
+```
+
+```bash
+124 |set $ws1 ""
+125 |set $ws2 ""
+126 |set $ws3 ""
+127 |set $ws4 ""
+128 |set $ws5 ""
+129 |set $ws6 "B1"
+130 |set $ws7 "B2"
+131 |set $ws8 "B3"
+132 |set $ws9 "B4"
+133 |set $ws10 "B5"
+```
+[Icon's cheatsheet](https://fontawesome.com/v4.7/cheatsheet)
 
 # BgProcesses
-executions of: picom, wallo (dependencie needed) layout in es 
+```bash
+223 |exec --no-startup-id picom --config /home/nomade/.config/picom/picom.conf
+```
+Script for randomizing background
+```bash
+224 |#remove "a" in wallo call for random background
+225 |exec --no-startup-id /home/$USER/.config/scripts/wallo a
+```
+Dependencies needed: 
+```bash
+pacman -S feh
+```
+
+```bash
+exec_always --no-startup-id setxkbmap -layout es
+```
+
 # Extras
-Restrict: Blueberry and xfce4 terminal floating mode 
+[Blueberry Bluetooth tool](https://github.com/linuxmint/blueberry)
+```bash
+218 | for_window [class="Blueberry"] floating enable
+```
 Log off with dm-tool lock 
-Bar of i3blocks: color scheme 
+```bash 
+163 |#~ logout i3 
+164 |bindsym $mod+Shift+e exec --no-startup-id dm-tool lock
+```
+Toolbar color schemes(From line 196 to 211)
+```bash
+	bar {
+	position top
+	height 25
+        status_command i3blocks
+	colors {
+		#background #222222ff
+	        background #222222
+		statusline #eeeeee
+		separator #666666
+        	#                  border  backgr. text
+		focused_workspace  #444444 #444444 #ffffff
+		active_workspace   #333333 #5f676a #ffffff
+		inactive_workspace #333333 #222222 #888888
+		urgent_workspace   #2f343a #900000 #ffffff
+	}
+}
+```
