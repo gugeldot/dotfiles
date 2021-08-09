@@ -25,7 +25,7 @@ Blueberry laucher.
 Option B: [rofi-bluetooth](https://github.com/nickclyde/rofi-bluetooth)
 
 # **bright.sh**
-Dependencies: [blighty](DO)
+Dependencies: [blighty](https://github.com/nickclyde/rofi-bluetooth)
 Purpose: Information of brightness by blighty & controlled by i3/config with fn keys
 
 # **cheatsheet-i3**
