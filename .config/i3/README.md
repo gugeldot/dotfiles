@@ -14,7 +14,7 @@ Lines referenced from the config file
 52 |#~ Power-menu
 53 |bindsym $mod+p exec --no-startup-id rofi -modi mymenu:$HOME/.config/i3blocks/rofi-pwmenu.py -show mymenu -show-icon 
 ````
-
+![RPM](../.screenshots/rofipowermenu.jpg)
 ##### Rofi WifiMenu
 ```bash
 61 |#~ rofi wifi menu
