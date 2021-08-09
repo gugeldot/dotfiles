@@ -54,7 +54,7 @@ Dependencies:
 ```bash 
 yay -S spotify 
 ```
-Purpose: An [interface](https://gist.github.com/fa6258f3ff7b17747ee3.git using spotify to display information
+Purpose: An [interface](https://gist.github.com/fa6258f3ff7b17747ee3.git)using spotify to display information
 
 # **spotify.sh**
 Purpose: Uses sp to display info on the taskbar
